@@ -1,0 +1,89 @@
+/* .caja {
+            background-color: blueviolet;
+            /*width: 450px;
+            height: 45px;
+            /*padding-top: 30px;
+            padding-right: 50px;
+            padding-bottom: 70px;
+            padding-left: 80px;
+            padding: 30px 50px 70px 80px ;
+
+           /*border-bottom: 20px ;
+            border-width: 10px;
+            border-style: solid;
+            border: 15px solid blue;
+
+            /*margin-top:50px ;
+            margin-left: 50px;
+
+            margin: 100px  30px ;
+            display: inline;
+        }
+        .caja2 {
+         background-color: antiquewhite;
+         height: 50px;
+         display: block;
+        }
+        p1{display: inline;}
+        */
+/*.padre{
+    font-size: 50px;
+    color:aquamarine;
+}
+#pond{
+    display: flex;
+    justify-content: space-between;
+
+}*/
+.contenedorheader{
+    display: flex;
+    justify-content: center;
+    text-transform:unset;
+}
+.contenedorheader h1{
+  margin: 10px 10px;
+
+}
+.contenedornav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.contenedornav a{
+    color: white;
+    text-transform:capitalize;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.contenedornav a:hover{
+    background-color: white;
+    color: black;
+}
+.fondoimagen1{
+    height:100vh;
+    background-image: url(../img/illustration-electronic-music-fest-summer-wave-poster-background-vector.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.fondoimagen1 a{
+    padding: 20px 20px;
+    background-color: rgb(7, 0, 0);
+    text-decoration: none;
+    
+    
+}
+.contenedortexto1 {
+    padding: 0px  20px;
+}
+
+.contenedortexto1 h2 {
+text-align: center;
+}
+.contenedortexto1 p {
+text-align: justify;
+}
